@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grades</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2>Student Grade calculator</h2>
+    <div class="container">
+      <form id="gradeForm">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" required />
+
+        <label>Subjects:</label>
+        <div id="subjects">
+          <div>
+            <label>Mathematics:</label>
+            <input
+              type="number"
+              class="grade"
+              name="Math"
+              min="0"
+              max="100"
+              required
+            />
+          </div>
+          <div>
+            <label>Chemistry:</label>
+            <input
+              type="number"
+              class="grade"
+              name="Science"
+              min="0"
+              max="100"
+              required
+            />
+          </div>
+          <div>
+            <label>English:</label>
+            <input
+              type="number"
+              class="grade"
+              name="English"
+              min="0"
+              max="100"
+              required
+            />
+          </div>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="student-list" id="studentList"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
