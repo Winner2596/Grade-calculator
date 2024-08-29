@@ -8,6 +8,8 @@ body {
   background-color: #f4f4f4;
   margin: 20px;
   line-height: 1.6;
+   font-family: "Poppins";
+ 
 }
 
 h2 {
@@ -30,6 +32,7 @@ form {
   width: 30%;
 }
 
+
 label {
   display: block;
   margin-bottom: 10px;
@@ -44,7 +47,9 @@ input[type="number"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+   font-family: "Poppins";
 }
+
 input[type="text"],
 input[type="number"]:focus{
   outline: 0;
@@ -91,7 +96,6 @@ button:hover {
   }
   .student-list {
     margin: 0;
-    height: 20px;
     width: 90%;
   }
   
